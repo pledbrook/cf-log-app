@@ -23,8 +23,7 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        compile ":standalone:1.0"
-        runtime ":mongodb:1.0.0.RC4", ":rabbitmq:0.4-SNAPSHOT", ":cloud-foundry:1.2.1"
+        runtime ":mongodb:1.0.0.GA", ":rabbitmq:1.0.0.RC1", ":cloud-foundry:1.2.2"
 
         build ":tomcat:$grailsVersion"
     }

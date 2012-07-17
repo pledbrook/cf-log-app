@@ -17,6 +17,7 @@ grails.project.dependency.resolution = {
         grailsCentral()
         mavenCentral()
         mavenLocal()
+        mavenRepo "http://maven.springframework.org/milestone/"
     }
     dependencies {
 
